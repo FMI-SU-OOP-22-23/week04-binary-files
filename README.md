@@ -9,7 +9,7 @@
 
 ## Задача 2
 Разглеждаме
-struct  Order {
+struct Order {
 double gross_price;
 double vat;
 int customerID;
@@ -26,4 +26,6 @@ struct Customer {
   int customerID;
   int age;
 }
-На базата на задача 2, да се изведат имената и възраста на всички топ потребители и да се запишат във файл topCustomersInfo.dat. 
+
+Подгответе тестови данни за тази структура в двойчен файл customers.dat . Има ли потенциален проблем с char* name?
+На базата на задача 2, да се изведат имената и възрастта на всички топ потребители и да се запишат във файл topCustomersInfo.dat. 
